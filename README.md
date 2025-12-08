@@ -6,6 +6,7 @@ Um repositório interativo que coloca C# e Go lado a lado. Cada conceito traz um
 - Entre em cada exemplo em `examples/` para ver C# (`csharp/`) e Go (`go/`) na prática.
 - Execute ambos os lados para sentir as diferenças: `dotnet run` no diretório `csharp/` e `go run .` em `go/`.
 - Leia o `README.md` local de cada exemplo para entender a tradução de conceitos.
+- Cada exemplo Go tem seu próprio `go.mod` para evitar conflito de módulos; basta rodar `go run .` dentro da pasta `go/`.
 
 ### Roadmap de exemplos
 - `01-basics/` variáveis/tipos, interfaces, generics, tratamento de erros.
